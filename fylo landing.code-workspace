@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../font awseome v4"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "fylo landing"
+  }
+}
