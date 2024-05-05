@@ -16,6 +16,8 @@
   --weight-regular: 400;
   --weight-bold: 700;
   --pfontsize: 16px;
+  --errorMsg: red;
+  --succesmsg: green;
 }
 * {
   margin: 0;
@@ -24,32 +26,51 @@
 }
 .container {
   overflow: hidden;
-  /* width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
 }
 .error-message {
-  color: red;
+  color: var(--errorMsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
 }
 .success-message {
-  color: green;
-}
-.error-message2 {
-  color: red;
-}
-.success-message {
-  color: green;
-}
-.error-input {
-  border: 2px red solid;
+  color: var(--succesmsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
 }
 .send-message {
-  color: green;
+  color: var(--succesmsg);
+  margin-top: -20px;
+  font-family: var(--font-Raleway);
 }
 .message-not-sent {
-  color: red;
+  color: var(--errorMsg);
+  margin-top: -20px;
+  font-family: var(--font-Raleway);
+}
+/* second input88888888888888888888888888888888888888 */
+.error-message2 {
+  color: var(--errorMsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.success-message2 {
+  color: var(--succesmsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.send-message2 {
+  color: var(--succesmsg);
+  margin-top: -50px;
+  font-family: var(--font-Raleway);
+}
+.message-not-sent2 {
+  color: var(--errorMsg);
+  margin-top: -50px;
+  font-family: var(--font-Raleway);
 }
 /* nav//////////////////////////// */
 a:hover {
@@ -305,7 +326,7 @@ section p {
   font-family: "Raleway";
   font-weight: bold;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 footer {
   background-color: var(--Very-Dark-Blue);
