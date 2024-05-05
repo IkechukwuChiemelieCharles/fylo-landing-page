@@ -35,7 +35,7 @@ sendEmailButton.addEventListener("click", function () {
 
     emailInput.value = ""; // Clear the input field after sending the email
   } else {
-    emailSendMsg.textContent = "Please enter a valid email before sending.";
+    emailSendMsg.textContent = "Please enter  valid email .";
     emailSendMsg.classList.remove("send-message");
     emailSendMsg.classList.add("message-not-sent");
   }
@@ -69,7 +69,7 @@ sendEmailButton2.addEventListener("click", function () {
 
     emailInput2.value = ""; // Clear the input field after sending the email
   } else {
-    emailSendMsg2.textContent = "Please enter a valid email before sending.";
+    emailSendMsg2.textContent = "Please enter valid email .";
     emailSendMsg2.classList.remove("send-message2");
     emailSendMsg2.classList.add("message-not-sent2");
   }

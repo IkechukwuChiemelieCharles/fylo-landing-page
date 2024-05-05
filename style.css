@@ -27,51 +27,7 @@
 .container {
   overflow: hidden;
 }
-.error-message {
-  color: var(--errorMsg);
-  margin-top: -10px;
-  margin-bottom: 10px;
-  font-family: var(--font-Raleway);
-}
-.success-message {
-  color: var(--succesmsg);
-  margin-top: -10px;
-  margin-bottom: 10px;
-  font-family: var(--font-Raleway);
-}
-.send-message {
-  color: var(--succesmsg);
-  margin-top: -20px;
-  font-family: var(--font-Raleway);
-}
-.message-not-sent {
-  color: var(--errorMsg);
-  margin-top: -20px;
-  font-family: var(--font-Raleway);
-}
-/* second input88888888888888888888888888888888888888 */
-.error-message2 {
-  color: var(--errorMsg);
-  margin-top: -10px;
-  margin-bottom: 10px;
-  font-family: var(--font-Raleway);
-}
-.success-message2 {
-  color: var(--succesmsg);
-  margin-top: -10px;
-  margin-bottom: 10px;
-  font-family: var(--font-Raleway);
-}
-.send-message2 {
-  color: var(--succesmsg);
-  margin-top: -50px;
-  font-family: var(--font-Raleway);
-}
-.message-not-sent2 {
-  color: var(--errorMsg);
-  margin-top: -50px;
-  font-family: var(--font-Raleway);
-}
+
 /* nav//////////////////////////// */
 a:hover {
   color: var(--Bright-Blue);
@@ -183,6 +139,29 @@ header p {
   font-weight: bold;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+.error-message {
+  color: var(--errorMsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.success-message {
+  color: var(--succesmsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.send-message {
+  color: var(--succesmsg);
+  margin-top: -20px;
+  font-family: var(--font-Raleway);
+}
+.message-not-sent {
+  color: var(--errorMsg);
+  margin-top: -20px;
+  font-family: var(--font-Raleway);
 }
 button:hover {
   background-color: var(--lightblue);
@@ -316,6 +295,29 @@ section p {
   padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+/* second input88888888888888888888888888888888888888 */
+.error-message2 {
+  color: var(--errorMsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.success-message2 {
+  color: var(--succesmsg);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: var(--font-Raleway);
+}
+.send-message2 {
+  color: var(--succesmsg);
+  margin-top: -50px;
+  font-family: var(--font-Raleway);
+}
+.message-not-sent2 {
+  color: var(--errorMsg);
+  margin-top: -50px;
+  font-family: var(--font-Raleway);
 }
 .btn2 {
   width: 260px;
@@ -480,6 +482,44 @@ footer {
     margin-top: -10px;
     padding-left: 70px;
   }
+  .btn-with-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .error-message {
+    color: var(--errorMsg);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -39px;
+    font-family: var(--font-Raleway);
+  }
+  .success-message {
+    color: var(--succesmsg);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -39px;
+
+    font-family: var(--font-Raleway);
+  }
+  .btn-with-error2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .send-message {
+    color: var(--succesmsg);
+    margin-bottom: -200px;
+    font-family: var(--font-Raleway);
+  }
+  .message-not-sent {
+    color: var(--errorMsg);
+    margin-bottom: -200px;
+    font-family: var(--font-Raleway);
+  }
 
   .input1 {
     width: 200px;
@@ -488,7 +528,7 @@ footer {
   .btn1 {
     width: 120px;
     height: 40px;
-    margin-bottom: -20px;
+    margin-top: -23px;
   }
   button:hover {
     background-color: var(--lightblue);
@@ -522,7 +562,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
   .section-texts {
     text-align: start;
@@ -536,6 +576,7 @@ footer {
     flex-direction: column;
     gap: 0;
     padding-left: 50px;
+    margin-bottom: 200px;
   }
   .input2 {
     width: 250px;
@@ -751,7 +792,7 @@ footer {
   .curve {
     margin-bottom: -180px;
   }
-  .btns2 {
+  /* .btns2 {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -762,27 +803,27 @@ footer {
   .input2 {
     width: 400px;
     /* margin-left: -40px; */
-  }
-  .btn2 {
-    width: 200px;
-    height: 40px;
-    /* margin-bottom: -20px; */
-  }
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    gap: 10px;
-  }
-  .link1 {
-    margin-left: 10px;
-  }
-  .social-icons {
-    margin-right: 100px;
-    gap: 20px;
-  }
 }
+.btn2 {
+  width: 200px;
+  height: 40px;
+  /* margin-bottom: -20px; */
+}
+*/ .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+.link1 {
+  margin-left: 10px;
+}
+.social-icons {
+  margin-right: 100px;
+  gap: 20px;
+}
+
 @media screen and (min-width: 1400px) {
   nav {
     position: fixed;
