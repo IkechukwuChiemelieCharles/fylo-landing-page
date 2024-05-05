@@ -528,7 +528,7 @@ footer {
   .btn1 {
     width: 120px;
     height: 40px;
-    margin-top: -23px;
+    margin-top: -15px;
   }
   button:hover {
     background-color: var(--lightblue);
