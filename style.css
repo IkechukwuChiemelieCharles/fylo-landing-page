@@ -146,22 +146,26 @@ header p {
   margin-top: -10px;
   margin-bottom: 10px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .success-message {
   color: var(--succesmsg);
   margin-top: -10px;
   margin-bottom: 10px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .send-message {
   color: var(--succesmsg);
   margin-top: -20px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .message-not-sent {
   color: var(--errorMsg);
   margin-top: -20px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 button:hover {
   background-color: var(--lightblue);
@@ -302,22 +306,26 @@ section p {
   margin-top: -10px;
   margin-bottom: 10px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .success-message2 {
   color: var(--succesmsg);
   margin-top: -10px;
   margin-bottom: 10px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .send-message2 {
   color: var(--succesmsg);
   margin-top: -50px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .message-not-sent2 {
   color: var(--errorMsg);
   margin-top: -50px;
   font-family: var(--font-Raleway);
+  font-size: 12px;
 }
 .btn2 {
   width: 260px;
@@ -469,6 +477,7 @@ footer {
   }
   .img-side-text p {
     text-align: start;
+    margin-bottom: 30px;
   }
 
   .img-side-text h3 {
@@ -490,15 +499,14 @@ footer {
   }
   .error-message {
     color: var(--errorMsg);
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-bottom: -200px;
+
     margin-left: -39px;
     font-family: var(--font-Raleway);
   }
   .success-message {
     color: var(--succesmsg);
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-bottom: -200px;
     margin-left: -39px;
 
     font-family: var(--font-Raleway);
@@ -524,6 +532,7 @@ footer {
   .input1 {
     width: 200px;
     margin-left: -40px;
+    margin-top: -10px;
   }
   .btn1 {
     width: 120px;
@@ -577,6 +586,11 @@ footer {
     gap: 0;
     padding-left: 50px;
     margin-bottom: 200px;
+  }
+  .message-not-sent2 {
+    color: red;
+    margin-top: -50px;
+    font-family: var(--font-Raleway);
   }
   .input2 {
     width: 250px;
